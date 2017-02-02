@@ -1,0 +1,7 @@
+<h1>This is routes</h1>
+
+<ul>
+  <li *ngFor="let reitti of hslasemajuttu">
+    <a href="https://maps.google.fi/maps/place/{{reitti.lat}}+{{reitti.lon}}" target="_blank">{{reitti.name}}</a>
+     </li>
+</ul>
